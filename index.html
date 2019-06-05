@@ -7,53 +7,59 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ol>
-                <li>
-                    <a class="link" href="#portafolio">Portafolio</a>
-                </li>
-                <li>
-                    <a class="link" href="#eventos">Experiencia</a>
-                </li>
-                <li>
-                    <a class="link" href="#contacto">Trabajemos juntos</a>
-                </li>
-            </ol>
-        </nav>
+    <header class="header">
+        <div>
+            <figure class="logo">
+                <img src="" alt="">
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="link" href="#portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#eventos">Experiencia</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#contacto">Trabajemos juntos</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
     </header>
-    <section class="portafolio">
+    <section class="hero">
         <h1>
             Hola, soy <strong>Nicolás Albo</strong>, <br/> <strong>Desarrollador Web</strong> con <br/> pasión por la enseñanza.
         </h1>
         <img src="../desarrollo_web/sho.jpg" width="500" height="300">
     </section>
-    <section id="portafolio" class="portafolio">
+    <section id="portafolio" class="portfolio">
         <h2>Portafolio (Proyectos Destacados)</h2>
-        <article>
-            <h3>Platzi Video</h3>
-            <h6>React Native / React</h6>
-            <p><small><strong>Fecha: </strong>25/05/2019</small></p>
-            <p><small><strong>Puedes verlo en: </strong>www.platzi.com/native</small></p>
+        <article class="project">
+            <h3 class="project-title">Platzi Video</h3>
+            <h6 class="project-course">React Native / React</h6>
+            <p class="project-date"><small><strong>Fecha: </strong>25/05/2019</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en: </strong>www.platzi.com/native</small></p>
         </article>
     </section>
     <section id="eventos">
         <h2>Más sobre mi experiencia</h2>
-        <article>
-            <figure>
-                <img/>
+        <article class="event">
+            <figure class="event-imageContainer">
+                <img class="event-image"/>
             </figure>
-            <h3>PlatziConf México 2019</h3>
-            <p>El evento mas grande sobre gente que quiere aprender más de internet.</p>
-            <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank"> Ver Plática</a>
+            <h3 class="event-title">PlatziConf México 2019</h3>
+            <p class="event-description">El evento mas grande sobre gente que quiere aprender más de internet.</p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank"> Ver Plática</a>
         </article>
     </section>
-    <section id="contacto">
-        <form action="/suscripcion/">
+    <section id="contacto" class="contact">
+        <form action="/suscripcion/" class="form-email">
             <h3>¿Creamos algo juntos?</h3>
             <input type="text" placeholder="Déjame tu email" id="email">
+            <button>Enviar</button>
         </form>
     </section>
-    <footer>footer</footer>
+    <footer class="footer">footer</footer>
 </body>
 </html>
