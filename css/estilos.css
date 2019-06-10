@@ -1,27 +1,14 @@
-/* reglas
-selectores
-declaraciones
-propiedades
-valores  */
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
-/* selector de etiqueta header - section - article - nav*/
-    /* header 
-    {
-        background:magenta;
-        color: cyan;
-    } */
-    body 
-    {
-        background:magenta;
-        color: cyan;
-    }
-
-/* selector descendente */
-/* body header div nav ol li a */
-
-/* selector de clase . */
-
-/* .link */
-
-/* selector de id # */
-/* #portafolio */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: 'Fjalla One', sans-serif;
+}
